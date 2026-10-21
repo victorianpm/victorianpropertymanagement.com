@@ -1,7 +1,7 @@
 (function () {
   var form = document.getElementById('callback');
   if (!form) return;
-  var ENDPOINT = 'https://formsubmit.co/ajax/victorianpropertymanagement@gmail.com';
+  var ENDPOINT = 'https://formsubmit.co/ajax/info@victorianpropertymanagement.com';
   var SUBJECT = 'Call back request \u2013 Victorian Property Management';
   var QUICK_MS = 6000; // the form service can take a while to answer; confirm once the request is on its way
   var fields = form.querySelector('.cb-fields');
